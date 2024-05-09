@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
+.contenu {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: hsla(162, 72%, 48%, 0.493);
+    border-radius: 10px;
+    box-shadow: 0 0 10px hwb(189 5% 49% / 0.889);
+}
+
+h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.field {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="file"],
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid hsla(232, 82%, 33%, 0.825);
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgba(138, 11, 107, 0.662);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: hsl(262, 95%, 30%);
+}
